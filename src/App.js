@@ -1,12 +1,12 @@
 import './App.css';
 import Bulb from './components/bulb';
 
-
 function App() {
   return (
     <div className="App">
       
-      <Bulb/>
+      <Bulb />
+      
     </div>
   );
 }
