@@ -1,0 +1,56 @@
+.App{ 
+    font-family: sans-serif;
+    max-width: 500px;
+    margin-left: 300px;
+    
+  }
+  
+  .bulb-off,
+  .bulb-on {
+    width: 500px;
+    height: 300px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    
+
+    
+    
+    
+  }
+  
+  .bulb-off:last-of-type,
+  .bulb-on:last-of-type {
+    margin-left: 25%;
+  
+    
+  }
+  
+  .bulb-off {
+    background-image: url("./bulb-off.svg");
+
+  
+  }
+  
+  .bulb-on {
+    background-image: url("./bulb-on.svg");
+  }
+  
+  button {
+    margin-top: 50px;
+    margin-left: 60px;
+    padding: 10px 40px;
+    font-size: 20px;
+    background-color: #fff;
+    color: black;
+    border-radius: 6px;
+    border-color: black;
+    
+     
+  }
+
+  button:hover{
+
+  background-color: orange;
+  color: aqua;
+  }
+  
