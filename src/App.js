@@ -1,5 +1,5 @@
 import './App.css';
-import Bulb from './components/bulb';
+import Bulb from './components/BULB';
 
 function App() {
   return (
