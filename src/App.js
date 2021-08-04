@@ -1,7 +1,7 @@
 import './App.css';
 import Bulb from './components/Bulb';
 
-import BulbArray from './components/Bulbarray';
+import BulbArray from './components/BulbArray';
 
 
 function App() {
