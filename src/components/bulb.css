@@ -7,32 +7,23 @@
   
   .bulb-off,
   .bulb-on {
-    width: 500px;
-    height: 300px;
+    width: 100px;
+    height: 100px;
     background-repeat: no-repeat;
     display: inline-block;
-    
+  }
 
-    
-    
-    
+  .bulbs-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
-  
-  .bulb-off:last-of-type,
-  .bulb-on:last-of-type {
-    margin-left: 25%;
-  
-    
-  }
-  
+
   .bulb-off {
-    background-image: url("./bulb-off.svg");
-
-  
+    background-image: url("../components/images/bulb-off.svg");
   }
   
   .bulb-on {
-    background-image: url("./bulb-on.svg");
+    background-image: url("../components/images/bulb-on.svg");
   }
   
   button {
@@ -44,13 +35,13 @@
     color: black;
     border-radius: 6px;
     border-color: black;
-    
-     
+    cursor: pointer;
   }
 
   button:hover{
 
   background-color: orange;
   color: aqua;
+
   }
   
