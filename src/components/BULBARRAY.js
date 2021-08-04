@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Bulb from "./BULB";
-import "./BULB.css";
+import Bulb from "./Bulb";
+import "./Bulb.css";
 
 const BulbArray = () => {
    

@@ -1,6 +1,9 @@
 import './App.css';
-import Bulb from './components/BULB';
-import BulbArray from './components/BULBARRAY';
+import Bulb from './components/Bulb';
+
+import BulbArray from './components/Bulbarray';
+
+
 function App() {
   return (
     <div className="App">

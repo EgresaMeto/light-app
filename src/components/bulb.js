@@ -1,6 +1,6 @@
 
 import React, { useState } from "react";
-import "./BULB.css";
+import "./Bulb.css";
 /*
   inside the ./components create a another component with 4x4 bulbs shaped like a square. 
   when you click the switch only the bulbs on the odd position  should be turned on ex: 1 3 5 etc 
